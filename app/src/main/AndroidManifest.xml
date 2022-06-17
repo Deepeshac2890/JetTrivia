@@ -3,6 +3,7 @@
     package="com.example.jettrivia">
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
+        android:usesCleartextTraffic="true"
         android:name=".TriviaApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
